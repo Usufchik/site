@@ -1,0 +1,113 @@
+body{
+    max-width: 1062px;
+    width: 100%;
+    margin: auto;
+    background-image: url('торты1.png') ;
+    background-attachment: fixed;
+    height: 100%;
+    color: #000000;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10px;
+    margin-bottom: 250px;
+}
+
+.menu-list{
+    display: flex ;
+    list-style-type: none;
+    margin-left: 50px;
+}
+
+.menu-item:not(:last-child){
+    margin-right: 60px;
+}
+
+.menu-item a {
+text-decoration: none;
+color: rgb(0, 0, 0);
+text-align: left;
+}
+
+.active {
+    font-weight:bolder;
+}
+
+main {
+    max-width: 500px;
+}
+
+base{
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 62px;
+    left: 43px;
+}
+
+img{
+border-radius: 30px;
+}
+
+.text{
+    position: relative;
+    bottom: 78px;
+    left: 180px;
+    color: #ffffff;
+    font-size: 27px;
+}
+
+.button-order {
+    display: inline-block;
+    padding: 12px 25px;
+    color: rgb(255, 255, 255);
+    user-select: none;
+    background: #d8d5d5;
+    border-radius: 30px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 5px;
+    position: relative;
+    left: 168px;
+    top: 70px;
+}
+
+.button-order :hover{
+    opacity: 0.8;
+}
+
+.np{
+    position: relative;
+    left: 350px;
+    bottom: 1535px;
+    font-size: large;
+}
+
+.md{
+    position: relative;
+    left: 350px;
+    bottom: 1205px;
+    font-size: large;
+}
+
+.tr{
+    position: relative;
+    left: 350px;
+    bottom: 875px;
+    font-size: large;
+}
+
+.milk{
+    position: relative;
+    left: 350px;
+    bottom: 533px;
+    font-size: large;
+}
+
+.price{
+    position: relative;
+    left: 202px;
+    bottom: 95px;
+    font-size: larger;
+}

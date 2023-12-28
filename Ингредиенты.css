@@ -1,0 +1,91 @@
+body{
+        max-width: 1062px;
+        width: 100%;
+        margin: auto;
+        background-image: url('торты1.png') ;
+        height: 100%;
+        color: #000000;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10px;
+    margin-bottom: 250px;
+}
+
+.menu-list{
+    display: flex ;
+    list-style-type: none;
+    margin-left: 50px;
+}
+
+.menu-item:not(:last-child){
+    margin-right: 60px;
+}
+
+.menu-item a {
+text-decoration: none;
+color: rgb(0, 0, 0);
+text-align: left;
+}
+
+.active {
+    font-weight: bold;
+}
+
+main {
+    max-width: 500px;
+}
+
+.base{
+    list-style-type: none;
+}
+
+
+img{
+border-radius: 30px;
+}
+
+.text{
+    position: relative;
+    bottom: 66px;
+    left: 159px;
+    color: rgb(255, 255, 255);
+    font-size: 27px;
+}
+
+.nap{
+    font-size: larger;
+    position: relative;
+    bottom: 940px;
+    left: 235px;
+}
+
+.honey{
+    font-size: larger;
+    position: relative;
+    bottom: 880px;
+    left: 235px;
+}
+
+.tir{
+    font-size: larger;
+    position: relative;
+    bottom: 880px;
+    left: 235px; 
+}
+
+.tir{
+    font-size: larger;
+    position: relative;
+    bottom: 780px;
+    left: 235px; 
+}
+
+.bird{
+    font-size: larger;
+    position: relative;
+    bottom: 675px;
+    left: 235px; 
+}

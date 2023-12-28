@@ -1,0 +1,53 @@
+body{
+    max-width: 1062px;
+    width: 100%;
+    margin: auto;
+    background-image: url('торты1.png') ;
+    height: 100%;
+    color: #000000;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10px;
+    margin-bottom: 250px;
+}
+
+.menu-list{
+    display: flex ;
+    list-style-type: none;
+    margin-left: 50px;
+}
+
+.menu-item:not(:last-child){
+    margin-right: 60px;
+}
+
+.menu-item a {
+text-decoration: none;
+color: rgb(0, 0, 0);
+text-align: left;
+}
+
+.active {
+    font-weight:bolder;
+}
+
+main {
+    max-width: 500px;
+}
+
+img{
+    border-radius: 30px;
+}
+
+.text{
+    font-size: normal;
+    line-height: 20px;
+}
+
+.hender-tel{
+    color: #000000;
+    font-weight:10;
+}
